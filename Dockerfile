@@ -1,4 +1,4 @@
-FROM daocloud.io/dacpondatahub/dataex-tomcat:master-init
+FROM dataex-tomcat
 
 ADD ./webapps /usr/local/tomcat/webapps
 ADD ./conf /usr/local/tomcat/conf
